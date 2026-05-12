@@ -37,12 +37,12 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
-    <header class="fixed w-full">
+    <header class="fixed w-full z-50">
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" class="flex items-center">
-                    <img src="./images/logo.png" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AWEN | AYMA</span>
+                    <img src="./images/logo_ayma.png" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AYMA</span>
                 </a>
                 <div class="flex items-center lg:order-2">
                     <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
@@ -98,101 +98,624 @@
 
       <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <!-- <span class="text-3xl">🔧</span> -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500"
-            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round"
-            d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"/>
-        </svg>
+        <div
+        class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+                transition-all duration-300 ease-out
+                hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+        >
+        <!-- Número decorativo -->
+        <span
+            class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+                transition-colors duration-300 group-hover:text-yellow-500/30"
+        >
+        </span>
 
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Mantenimiento de bodegas
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Inspección, reparación y adecuación funcional de espacios industriales.
-          </p>
+        <!-- Línea + icono -->
+        <div class="flex items-start gap-4">
+            <!-- Línea -->
+            <span
+            class="block w-1 h-12 bg-neutral-700
+                    transition-colors duration-300 group-hover:bg-yellow-500"
+            ></span>
+
+            <!-- Contenido -->
+            <div>
+            <!-- Icono -->
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-yellow-500 mb-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+                />
+            </svg>
+
+            <!-- Título -->
+            <h4
+                class="font-bold uppercase tracking-wide text-white
+                    transition-colors duration-300 group-hover:text-yellow-500"
+            >
+                Mantenimiento de bodegas
+            </h4>
+
+            <!-- Descripción -->
+            <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+                Inspección, reparación y adecuación funcional de espacios industriales
+                para garantizar operación segura y continua.
+            </p>
+
+            <!-- CTA -->
+            <a
+                href="#"
+                class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+                    opacity-0 translate-y-2
+                    transition-all duration-300
+                    group-hover:opacity-100 group-hover:translate-y-0"
+            >
+                Ver detalles
+                <span class="transition-transform duration-300 group-hover:translate-x-1">
+                →
+                </span>
+            </a>
+            </div>
+        </div>
+        </div>
+        <div
+        class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+                transition-all duration-300 ease-out
+                hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+            >
+            <!-- Número decorativo -->
+            <span
+                class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+                    transition-colors duration-300 group-hover:text-yellow-500/30"
+            >
+
+            </span>
+
+            <!-- Línea + icono -->
+            <div class="flex items-start gap-4">
+                <!-- Línea -->
+                <span
+                class="block w-1 h-12 bg-neutral-700
+                        transition-colors duration-300 group-hover:bg-yellow-500"
+                ></span>
+
+                <!-- Contenido -->
+                <div>
+                <!-- Icono -->
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-yellow-500 mb-3"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                >
+                    <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+                    />
+                </svg>
+
+                <!-- Título -->
+                <h4
+                    class="font-bold uppercase tracking-wide text-white
+                        transition-colors duration-300 group-hover:text-yellow-500"
+                >
+                    Limpieza de terrenos
+                </h4>
+
+                <!-- Descripción -->
+                <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+                    Desmalezado, retiro de escombros y acondicionamiento de áreas.
+                </p>
+
+                <!-- CTA -->
+                <a
+                    href="#"
+                    class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+                        opacity-0 translate-y-2
+                        transition-all duration-300
+                        group-hover:opacity-100 group-hover:translate-y-0"
+                >
+                    Ver detalles
+                    <span class="transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                    </span>
+                </a>
+                </div>
+            </div>
         </div>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🌿</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Limpieza de terrenos
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Desmalezado, retiro de escombros y acondicionamiento de áreas.
-          </p>
+        <div
+        class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+                transition-all duration-300 ease-out
+                hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+        >
+        <!-- Número decorativo -->
+        <span
+            class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+                transition-colors duration-300 group-hover:text-yellow-500/30"
+        >
+        </span>
+
+        <!-- Línea + icono -->
+        <div class="flex items-start gap-4">
+            <!-- Línea -->
+            <span
+            class="block w-1 h-12 bg-neutral-700
+                    transition-colors duration-300 group-hover:bg-yellow-500"
+            ></span>
+
+            <!-- Contenido -->
+            <div>
+            <!-- Icono -->
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-yellow-500 mb-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+                />
+            </svg>
+
+            <!-- Título -->
+            <h4
+                class="font-bold uppercase tracking-wide text-white
+                    transition-colors duration-300 group-hover:text-yellow-500"
+            >
+                Albañilería
+            </h4>
+
+            <!-- Descripción -->
+            <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+                Muros, pisos, acabados y rehabilitación estructural.
+            </p>
+
+            <!-- CTA -->
+            <a
+                href="#"
+                class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+                    opacity-0 translate-y-2
+                    transition-all duration-300
+                    group-hover:opacity-100 group-hover:translate-y-0"
+            >
+                Ver detalles
+                <span class="transition-transform duration-300 group-hover:translate-x-1">
+                →
+                </span>
+            </a>
+            </div>
+        </div>
         </div>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🧱</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Albañilería
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Muros, pisos, acabados y rehabilitación estructural.
-          </p>
+        <div
+        class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+                transition-all duration-300 ease-out
+                hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+        >
+        <!-- Número decorativo -->
+        <span
+            class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+                transition-colors duration-300 group-hover:text-yellow-500/30"
+        >
+
+        </span>
+
+        <!-- Línea + icono -->
+        <div class="flex items-start gap-4">
+            <!-- Línea -->
+            <span
+            class="block w-1 h-12 bg-neutral-700
+                    transition-colors duration-300 group-hover:bg-yellow-500"
+            ></span>
+
+            <!-- Contenido -->
+            <div>
+            <!-- Icono -->
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-yellow-500 mb-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+                />
+            </svg>
+
+            <!-- Título -->
+            <h4
+                class="font-bold uppercase tracking-wide text-white
+                    transition-colors duration-300 group-hover:text-yellow-500"
+            >
+                Pintura
+            </h4>
+
+            <!-- Descripción -->
+            <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+                Aplicación profesional en interiores y exteriores.
+            </p>
+
+            <!-- CTA -->
+            <a
+                href="#"
+                class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+                    opacity-0 translate-y-2
+                    transition-all duration-300
+                    group-hover:opacity-100 group-hover:translate-y-0"
+            >
+                Ver detalles
+                <span class="transition-transform duration-300 group-hover:translate-x-1">
+                →
+                </span>
+            </a>
+            </div>
+        </div>
         </div>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🎨</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Pintura
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Aplicación profesional en interiores y exteriores.
-          </p>
-        </div>
+			<div
+			class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+					transition-all duration-300 ease-out
+					hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+			>
+			<!-- Número decorativo -->
+			<span
+				class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+					transition-colors duration-300 group-hover:text-yellow-500/30"
+			>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🛠️</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Herrería
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Estructuras metálicas, portones y barandales.
-          </p>
-        </div>
+			</span>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🔌</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Electricidad
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Instalaciones, mantenimiento y corrección de fallas.
-          </p>
-        </div>
+			<!-- Línea + icono -->
+			<div class="flex items-start gap-4">
+				<!-- Línea -->
+				<span
+				class="block w-1 h-12 bg-neutral-700
+						transition-colors duration-300 group-hover:bg-yellow-500"
+				></span>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🚿</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Limpieza de tinacos
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Lavado y desinfección profesional de sistemas de agua.
-          </p>
-        </div>
+				<!-- Contenido -->
+				<div>
+				<!-- Icono -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 text-yellow-500 mb-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+				>
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+					/>
+				</svg>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">❄️</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Aire acondicionado
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Mantenimiento de equipos mini split e industriales.
-          </p>
-        </div>
+				<!-- Título -->
+				<h4
+					class="font-bold uppercase tracking-wide text-white
+						transition-colors duration-300 group-hover:text-yellow-500"
+				>
+					Herrería
+				</h4>
 
-        <div class="p-6 bg-neutral-800 border border-neutral-700">
-          <span class="text-3xl">🦟</span>
-          <h4 class="mt-4 font-bold uppercase tracking-wide">
-            Fumigación
-          </h4>
-          <p class="mt-2 text-sm text-gray-400">
-            Control profesional de plagas en industria y comercio.
-          </p>
-        </div>
+				<!-- Descripción -->
+				<p class="mt-2 text-sm text-gray-400 leading-relaxed">
+					Estructuras metálicas, portones y barandales.
+				</p>
+
+				<!-- CTA -->
+				<a
+					href="#"
+					class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+						opacity-0 translate-y-2
+						transition-all duration-300
+						group-hover:opacity-100 group-hover:translate-y-0"
+				>
+					Ver detalles
+					<span class="transition-transform duration-300 group-hover:translate-x-1">
+					→
+					</span>
+				</a>
+				</div>
+			</div>
+			</div>
+
+			<div
+			class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+					transition-all duration-300 ease-out
+					hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+			>
+			<!-- Número decorativo -->
+			<span
+				class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+					transition-colors duration-300 group-hover:text-yellow-500/30"
+			>
+
+			</span>
+
+			<!-- Línea + icono -->
+			<div class="flex items-start gap-4">
+				<!-- Línea -->
+				<span
+				class="block w-1 h-12 bg-neutral-700
+						transition-colors duration-300 group-hover:bg-yellow-500"
+				></span>
+
+				<!-- Contenido -->
+				<div>
+				<!-- Icono -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 text-yellow-500 mb-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+				>
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+					/>
+				</svg>
+
+				<!-- Título -->
+				<h4
+					class="font-bold uppercase tracking-wide text-white
+						transition-colors duration-300 group-hover:text-yellow-500"
+				>
+					Electricidad
+				</h4>
+
+				<!-- Descripción -->
+				<p class="mt-2 text-sm text-gray-400 leading-relaxed">
+					Instalaciones, mantenimiento y corrección de fallas.
+				</p>
+
+				<!-- CTA -->
+				<a
+					href="#"
+					class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+						opacity-0 translate-y-2
+						transition-all duration-300
+						group-hover:opacity-100 group-hover:translate-y-0"
+				>
+					Ver detalles
+					<span class="transition-transform duration-300 group-hover:translate-x-1">
+					→
+					</span>
+				</a>
+				</div>
+			</div>
+			</div>
+
+			<div
+			class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+					transition-all duration-300 ease-out
+					hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+			>
+			<!-- Número decorativo -->
+			<span
+				class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+					transition-colors duration-300 group-hover:text-yellow-500/30"
+			>
+
+			</span>
+
+			<!-- Línea + icono -->
+			<div class="flex items-start gap-4">
+				<!-- Línea -->
+				<span
+				class="block w-1 h-12 bg-neutral-700
+						transition-colors duration-300 group-hover:bg-yellow-500"
+				></span>
+
+				<!-- Contenido -->
+				<div>
+				<!-- Icono -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 text-yellow-500 mb-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+				>
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+					/>
+				</svg>
+
+				<!-- Título -->
+				<h4
+					class="font-bold uppercase tracking-wide text-white
+						transition-colors duration-300 group-hover:text-yellow-500"
+				>
+					Limpieza de tinacos
+				</h4>
+
+				<!-- Descripción -->
+				<p class="mt-2 text-sm text-gray-400 leading-relaxed">
+					Lavado y desinfección profesional de sistemas de agua.
+				</p>
+
+				<!-- CTA -->
+				<a
+					href="#"
+					class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+						opacity-0 translate-y-2
+						transition-all duration-300
+						group-hover:opacity-100 group-hover:translate-y-0"
+				>
+					Ver detalles
+					<span class="transition-transform duration-300 group-hover:translate-x-1">
+					→
+					</span>
+				</a>
+				</div>
+			</div>
+			</div>
+
+			<div
+			class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+					transition-all duration-300 ease-out
+					hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+			>
+			<!-- Número decorativo -->
+			<span
+				class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+					transition-colors duration-300 group-hover:text-yellow-500/30"
+			>
+
+			</span>
+
+			<!-- Línea + icono -->
+			<div class="flex items-start gap-4">
+				<!-- Línea -->
+				<span
+				class="block w-1 h-12 bg-neutral-700
+						transition-colors duration-300 group-hover:bg-yellow-500"
+				></span>
+
+				<!-- Contenido -->
+				<div>
+				<!-- Icono -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 text-yellow-500 mb-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+				>
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+					/>
+				</svg>
+
+				<!-- Título -->
+				<h4
+					class="font-bold uppercase tracking-wide text-white
+						transition-colors duration-300 group-hover:text-yellow-500"
+				>
+					Aire acondicionado
+				</h4>
+
+				<!-- Descripción -->
+				<p class="mt-2 text-sm text-gray-400 leading-relaxed">
+					Mantenimiento de equipos mini split e industriales.
+				</p>
+
+				<!-- CTA -->
+				<a
+					href="#"
+					class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+						opacity-0 translate-y-2
+						transition-all duration-300
+						group-hover:opacity-100 group-hover:translate-y-0"
+				>
+					Ver detalles
+					<span class="transition-transform duration-300 group-hover:translate-x-1">
+					→
+					</span>
+				</a>
+				</div>
+			</div>
+			</div>
+
+			<div
+			class="group relative p-6 bg-neutral-800 border border-neutral-700 rounded-sm
+					transition-all duration-300 ease-out
+					hover:-translate-y-2 hover:border-yellow-500 hover:shadow-xl hover:shadow-black/40"
+			>
+			<!-- Número decorativo -->
+			<span
+				class="absolute top-4 right-4 text-5xl font-bold text-neutral-700/40
+					transition-colors duration-300 group-hover:text-yellow-500/30"
+			>
+
+			</span>
+
+			<!-- Línea + icono -->
+			<div class="flex items-start gap-4">
+				<!-- Línea -->
+				<span
+				class="block w-1 h-12 bg-neutral-700
+						transition-colors duration-300 group-hover:bg-yellow-500"
+				></span>
+
+				<!-- Contenido -->
+				<div>
+				<!-- Icono -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-6 h-6 text-yellow-500 mb-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+				>
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M11.42 15.17 17.25 9.34a4.5 4.5 0 0 0-6.36-6.36L5.06 8.8a4.5 4.5 0 0 0 6.36 6.36Zm0 0L5.06 21"
+					/>
+				</svg>
+
+				<!-- Título -->
+				<h4
+					class="font-bold uppercase tracking-wide text-white
+						transition-colors duration-300 group-hover:text-yellow-500"
+				>
+					Fumigación
+				</h4>
+
+				<!-- Descripción -->
+				<p class="mt-2 text-sm text-gray-400 leading-relaxed">
+					Control profesional de plagas en industria y comercio.
+				</p>
+
+				<!-- CTA -->
+				<a
+					href="#"
+					class="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-yellow-500
+						opacity-0 translate-y-2
+						transition-all duration-300
+						group-hover:opacity-100 group-hover:translate-y-0"
+				>
+					Ver detalles
+					<span class="transition-transform duration-300 group-hover:translate-x-1">
+					→
+					</span>
+				</a>
+				</div>
+			</div>
+			</div>
 
       </div>
     </div>
@@ -248,8 +771,8 @@
       <!-- Marca -->
       <div>
         <a href="#" class="flex items-center text-2xl font-extrabold text-gray-900 uppercase tracking-wider">
-          <img src="./images/logo.png" class="h-8 mr-3" alt="Logo Awen" />
-          Awen Servicios
+          <img src="./images/logo_ayma.png" class="h-8 mr-3" alt="Logo Ayma" />
+          Ayma
         </a>
         <p class="mt-4 text-sm text-gray-600 max-w-sm">
           Servicios generales, técnicos e industriales enfocados en calidad,
@@ -263,10 +786,10 @@
           Navegación
         </h4>
         <ul class="mt-4 space-y-2 text-sm">
-          <li><a href="./index.html" class="hover:text-awen-500">Inicio</a></li>
-          <li><a href="./servicios.html" class="hover:text-awen-500">Servicios</a></li>
-          <li><a href="./index.html#proyectos" class="hover:text-awen-500">Proyectos</a></li>
-          <li><a href="#contacto" class="hover:text-awen-500">Contacto</a></li>
+          <li><a href="./index.html" class="hover:text-ayma-500">Inicio</a></li>
+          <li><a href="./servicios.html" class="hover:text-ayma-500">Servicios</a></li>
+          <li><a href="./index.html#proyectos" class="hover:text-ayma-500">Proyectos</a></li>
+          <li><a href="#contacto" class="hover:text-ayma-500">Contacto</a></li>
         </ul>
       </div>
 
@@ -279,25 +802,25 @@
           <li>
             📱
             <a href="https://wa.me/528332078476"
-               class="hover:text-awen-500">
+               class="hover:text-ayma-500">
               WhatsApp: 833 207 8476
             </a>
           </li>
           <li>
             📧
             <a href="mailto:osc2531@gmail.com"
-               class="hover:text-awen-500">
+               class="hover:text-ayma-500">
               osc2531@gmail.com
             </a>
           </li>
-          <li>
-            🌐
-            <a href="https://www.facebook.com/AwenServiciosySoluciones"
-               target="_blank"
-               class="hover:text-awen-500">
-              Facebook
-            </a>
-          </li>
+          <!-- <li> -->
+          <!--   🌐 -->
+          <!--   <a href="https://www.facebook.com/aymaServiciosySoluciones" -->
+          <!--      target="_blank" -->
+          <!--      class="hover:text-ayma-500"> -->
+          <!--     Facebook -->
+          <!--   </a> -->
+          <!-- </li> -->
         </ul>
       </div>
     </div>
@@ -308,7 +831,7 @@
     <!-- Bottom -->
     <div class="mt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
       <p>
-        © 2024 Awen Servicios y Soluciones. Todos los derechos reservados.
+        © 2024 AYMA Servicios y Soluciones. Todos los derechos reservados.
       </p>
     </div>
 
