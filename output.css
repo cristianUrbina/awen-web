@@ -1025,20 +1025,20 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
-.z-20 {
-  z-index: 20;
+.z-0 {
+  z-index: 0;
 }
 
 .z-10 {
   z-index: 10;
 }
 
-.z-40 {
-  z-index: 40;
+.z-20 {
+  z-index: 20;
 }
 
-.z-0 {
-  z-index: 0;
+.z-40 {
+  z-index: 40;
 }
 
 .m-6 {
@@ -1063,10 +1063,6 @@ input:checked + .toggle-bg {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .ml-1 {
@@ -1121,6 +1117,10 @@ input:checked + .toggle-bg {
   margin-bottom: 5rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -1169,12 +1169,12 @@ input:checked + .toggle-bg {
   display: none;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-16 {
+  height: 4rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-6 {
+  height: 1.5rem;
 }
 
 .h-10 {
@@ -1185,12 +1185,12 @@ input:checked + .toggle-bg {
   height: 1.25rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-8 {
   height: 2rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .h-full {
@@ -1227,10 +1227,6 @@ input:checked + .toggle-bg {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .w-10 {
@@ -1398,14 +1394,6 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -1416,6 +1404,10 @@ input:checked + .toggle-bg {
 
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-6 {
@@ -1567,7 +1559,7 @@ input:checked + .toggle-bg {
 
 .border-ayma-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(201 45 21 / var(--tw-border-opacity));
+  border-color: rgb(0 63 120 / var(--tw-border-opacity));
 }
 
 .border-neutral-700 {
@@ -1595,6 +1587,21 @@ input:checked + .toggle-bg {
   border-color: rgb(28 100 242 / var(--tw-border-opacity));
 }
 
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 131 248 / var(--tw-border-opacity));
+}
+
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(144 97 249 / var(--tw-border-opacity));
+}
+
+.border-balcaAccent-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(242 140 40 / var(--tw-border-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1602,12 +1609,12 @@ input:checked + .toggle-bg {
 
 .bg-ayma-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(201 45 21 / var(--tw-bg-opacity));
+  background-color: rgb(0 63 120 / var(--tw-bg-opacity));
 }
 
 .bg-ayma-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(129 28 13 / var(--tw-bg-opacity));
+  background-color: rgb(0 43 82 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
@@ -1648,6 +1655,10 @@ input:checked + .toggle-bg {
   background-color: rgb(108 43 217 / var(--tw-bg-opacity));
 }
 
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
 .bg-neutral-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
@@ -1672,20 +1683,32 @@ input:checked + .toggle-bg {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-black\/80 {
-  background-color: rgb(0 0 0 / 0.8);
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-opacity-5 {
-  --tw-bg-opacity: 0.05;
-}
-
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\.\/images\/renta_montaje_andamios\.jpg\)\] {
+  background-image: url(./images/renta_montaje_andamios.jpg);
+}
+
+.bg-\[url\(\.\/images\/aislamiento\.png\)\] {
+  background-image: url(./images/aislamiento.png);
+}
+
+.bg-\[url\(\.\/images\/sand_blast\.jpg\)\] {
+  background-image: url(./images/sand_blast.jpg);
+}
+
+.bg-\[url\(\.\/images\/mantenimiento_mecanico\.jpg\)\] {
+  background-image: url(./images/mantenimiento_mecanico.jpg);
+}
+
+.bg-\[url\(\.\/images\/acabados\.jpg\)\] {
+  background-image: url(./images/acabados.jpg);
 }
 
 .bg-\[url\(\.\/images\/bodega\.jpg\)\] {
@@ -1722,26 +1745,6 @@ input:checked + .toggle-bg {
 
 .bg-\[url\(\.\/images\/fumigacion\.jpg\)\] {
   background-image: url(./images/fumigacion.jpg);
-}
-
-.bg-\[url\(\.\/images\/mantenimiento_mecanico\.jpg\)\] {
-  background-image: url(./images/mantenimiento_mecanico.jpg);
-}
-
-.bg-\[url\(\.\/images\/acabados\.jpg\)\] {
-  background-image: url(./images/acabados.jpg);
-}
-
-.bg-\[url\(\.\/images\/renta_montaje_andamios\.jpg\)\] {
-  background-image: url(./images/renta_montaje_andamios.jpg);
-}
-
-.bg-\[url\(\.\/images\/aislamiento\.png\)\] {
-  background-image: url(./images/aislamiento.png);
-}
-
-.bg-\[url\(\.\/images\/sand_blast\.jpg\)\] {
-  background-image: url(./images/sand_blast.jpg);
 }
 
 .from-steel-950 {
@@ -2033,7 +2036,7 @@ input:checked + .toggle-bg {
 
 .text-ayma-600 {
   --tw-text-opacity: 1;
-  color: rgb(165 36 17 / var(--tw-text-opacity));
+  color: rgb(0 54 102 / var(--tw-text-opacity));
 }
 
 .text-primary-600 {
@@ -2053,7 +2056,7 @@ input:checked + .toggle-bg {
 
 .text-ayma-500 {
   --tw-text-opacity: 1;
-  color: rgb(201 45 21 / var(--tw-text-opacity));
+  color: rgb(0 63 120 / var(--tw-text-opacity));
 }
 
 .text-yellow-500 {
@@ -2061,17 +2064,24 @@ input:checked + .toggle-bg {
   color: rgb(194 120 3 / var(--tw-text-opacity));
 }
 
-.text-neutral-700\/40 {
-  color: rgb(64 64 64 / 0.4);
-}
-
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
-.opacity-80 {
-  opacity: 0.8;
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(144 97 249 / var(--tw-text-opacity));
+}
+
+.text-balcaAccent-500 {
+  --tw-text-opacity: 1;
+  color: rgb(242 140 40 / var(--tw-text-opacity));
 }
 
 .opacity-30 {
@@ -2169,7 +2179,7 @@ input:checked + .toggle-bg {
 
 .hover\:border-ayma-500:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(201 45 21 / var(--tw-border-opacity));
+  border-color: rgb(0 63 120 / var(--tw-border-opacity));
 }
 
 .hover\:border-yellow-500:hover {
@@ -2182,9 +2192,29 @@ input:checked + .toggle-bg {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.hover\:border-blue-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 131 248 / var(--tw-border-opacity));
+}
+
+.hover\:border-purple-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(144 97 249 / var(--tw-border-opacity));
+}
+
+.hover\:border-balcaAccent-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(242 140 40 / var(--tw-border-opacity));
+}
+
 .hover\:bg-gray-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-ayma-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 31 61 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-100:hover {
@@ -2194,7 +2224,7 @@ input:checked + .toggle-bg {
 
 .hover\:bg-ayma-600:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(165 36 17 / var(--tw-bg-opacity));
+  background-color: rgb(0 54 102 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-purple-800:hover {
@@ -2217,9 +2247,14 @@ input:checked + .toggle-bg {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-ayma-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(77 153 216 / var(--tw-text-opacity));
+}
+
 .hover\:text-ayma-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(201 45 21 / var(--tw-text-opacity));
+  color: rgb(0 63 120 / var(--tw-text-opacity));
 }
 
 .hover\:text-black:hover {
@@ -2310,13 +2345,39 @@ input:checked + .toggle-bg {
   background-color: rgb(194 120 3 / var(--tw-bg-opacity));
 }
 
+.group:hover .group-hover\:bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 131 248 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(144 97 249 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-balcaAccent-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 140 40 / var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(194 120 3 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:text-yellow-500\/30 {
-  color: rgb(194 120 3 / 0.3);
+.group:hover .group-hover\:text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(144 97 249 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-balcaAccent-500 {
+  --tw-text-opacity: 1;
+  color: rgb(242 140 40 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:opacity-100 {
@@ -2354,7 +2415,7 @@ input:checked + .toggle-bg {
 
 .dark .dark\:bg-ayma-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(201 45 21 / var(--tw-bg-opacity));
+  background-color: rgb(0 63 120 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gray-800 {
@@ -2693,7 +2754,7 @@ input:checked + .toggle-bg {
 
   .lg\:hover\:text-ayma-700:hover {
     --tw-text-opacity: 1;
-    color: rgb(129 28 13 / var(--tw-text-opacity));
+    color: rgb(0 43 82 / var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-purple-700:hover {
