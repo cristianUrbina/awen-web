@@ -41,11 +41,10 @@
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" class="flex items-center">
-                    <img src="./images/BALCA_logo.jpeg" class="h-12 sm:h-12 md:h-16 lg:h-20" alt="Landwind Logo" />
+                    <img src="./images/BALCA_logo.jpeg" class="h-12 sm:h-12 md:h-16 lg:h-18" alt="Landwind Logo" />
                     <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BALCA</span> -->
                 </a>
                 <div class="flex items-center lg:order-2">
-                    <a href="#contacto" class="text-white bg-ayma-500 hover:bg-ayma-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-ayma-500 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Contáctanos</a>
                     <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -76,108 +75,98 @@
     </header>
 
     <!-- Start block -->
-<section class="bg-gradient-to-br from-steel-950 to-steel-900 text-white">
-  <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto mb-8 lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 lg:pt-28">
-    <!-- COLUMNA IZQUIERDA -->
-    <div class="mr-auto place-self-center lg:col-span-7">
-      <!-- TITULO -->
-      <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-        BALCA
-        <span class="block text-2xl font-semibold text-white-700 md:text-3xl dark:text-gray-300">
-            ANDAMIOS SA DE CV
-        </span>
-      </h1>
+<div class="flex flex-col h-screen">
+<section
+  class="h-[60vh] lg:h-[80vh] relative text-white bg-bottom bg-cover bg-no-repeat flex items-center"
+  style="
+    background-image: url('./images/BALCA_1.jpeg');
+    /* background-position: bottom center; */
+  "
+>
+  <div class="absolute inset-0 bg-black/50"></div>
 
-      <!-- DESCRIPCION -->
-      <p class="max-w-2xl mb-6 font-light text-white-500 lg:mb-6 md:text-lg lg:text-xl dark:text-gray-400">
-        Ofrecemos mantenimiento, limpieza, construcción y servicios técnicos especializados para espacios industriales, comerciales y residenciales, con cobertura en Tampico, Ciudad Madero y Altamira.
-      </p>
+  <div class="relative z-10 max-w-screen-xl px-6 mx-auto">
+    <h1 class="text-3xl md:text-5xl font-bold max-w-3xl">
+      Soluciones Integrales para la Industria y la Construcción
+    </h1>
 
-      <!-- BOTONES -->
-      <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-        <a href="#contacto"
-          class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-white-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-          Solicitar cotización
-        </a>
-
+    <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+    <div class="space-y-4 sm:flex sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href="#contacto" class="text-white bg-ayma-500 hover:bg-ayma-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-ayma-500 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Contáctanos</a>
         <a href="./servicios.html"
-          class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-white-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+          class="items-center justify-center w-full px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-medium text-black border border-gray-200 rounded-lg sm:w-auto bg-white hover:bg-gray-100 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
           Ver nuestros servicios
         </a>
       </div>
     </div>
-
-    <!-- COLUMNA DERECHA -->
-    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center">
-      <img src="./images/BALCA_1.jpeg" alt="BALCA Andamios SA de CV ">
-    </div>
-
   </div>
-</section>
-    <!-- End block -->
-    <!-- Start block -->
-    <section class="bg-white dark:bg-gray-900">
-  <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-    <!-- Grid de iconos -->
-    <div class="grid grid-cols-2 gap-8 text-center sm:grid-cols-3 lg:grid-cols-6">
+    </section>
 
-      <!-- Industrial -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 21h18M5 21V7l8-4v18M13 21V11l6-4v14" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Industrial</span>
-      </div>
+        <section class="h-[40vh] lg:h-[20vh] bg-white dark:bg-gray-900">
+                <div class="h-full flex items-center" >
+    <div class="max-w-screen-xl px-4 mx-auto">
+        <!-- Grid de iconos -->
+        <div class="grid grid-cols-2 gap-8 text-center sm:grid-cols-3 lg:grid-cols-6">
 
-      <!-- Comercial -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 21h18M4 21V9h16v12M9 21V13h6v8" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Comercial</span>
-      </div>
+        <!-- Industrial -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 21h18M5 21V7l8-4v18M13 21V11l6-4v14" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Industrial</span>
+        </div>
 
-      <!-- Residencial -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 12l9-9 9 9M5 10v10h14V10" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Residencial</span>
-      </div>
+        <!-- Comercial -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 21h18M4 21V9h16v12M9 21V13h6v8" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Comercial</span>
+        </div>
 
-      <!-- Restaurantes -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M8 3v7M12 3v7M16 3v7M5 10h14M12 10v11" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Restaurantes</span>
-      </div>
+        <!-- Residencial -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 12l9-9 9 9M5 10v10h14V10" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Residencial</span>
+        </div>
 
-      <!-- Construcción -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Construcción</span>
-      </div>
+        <!-- Restaurantes -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M8 3v7M12 3v7M16 3v7M5 10h14M12 10v11" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Restaurantes</span>
+        </div>
 
-      <!-- Mantenimiento -->
-      <div class="flex flex-col items-center">
-        <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M11 2v4l3 2-2 3 3 3-2 3-3-2-4 1 1-4-2-3 3-2V2" />
-        </svg>
-        <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Mantenimiento técnico</span>
-      </div>
+        <!-- Construcción -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Construcción</span>
+        </div>
 
+        <!-- Mantenimiento -->
+        <div class="flex flex-col items-center">
+            <svg class="w-10 h-10 mb-3 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M11 2v4l3 2-2 3 3 3-2 3-3-2-4 1 1-4-2-3 3-2V2" />
+            </svg>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-300">Mantenimiento técnico</span>
+        </div>
+
+        </div>
     </div>
-  </div>
-</section>
+                    </div>
+    </section>
+            </div>
 
     <!-- End block -->
     <!-- Start block -->
@@ -187,7 +176,7 @@
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Quiénes somos</h2>
-                    <p class="mb-8 font-light lg:text-xl"> Ayma es una empresa dedicada al mantenimiento y mejora integral de espacios, brindando soluciones prácticas, eficientes y duraderas para nuestros clientes. </p>
+                    <p class="mb-8 font-light lg:text-xl"> BALCA es una empresa dedicada al mantenimiento y mejora integral de espacios, brindando soluciones prácticas, eficientes y duraderas para nuestros clientes. </p>
                     <!-- List -->
                     <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                         <li class="flex space-x-3">
